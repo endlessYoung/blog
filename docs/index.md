@@ -1,19 +1,28 @@
-# Endlessyoung's Blog
 ---
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  name: endlessyoung
+  text: 这世界太大，勇敢的少年奔赴天涯！
+  tagline: 想象力足以改变一切...
   image:
-    src: /logo.png
-    alt: VitePress
+    src: /success.png
+    alt: 成功
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/what-is-vitepress
+      text: 从这里开始
+      link: /page/github链接不上怎么办？.html
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: 转到->GitHub
+      link: https://github.com/endlessYoung
+features:
+  - icon: 🛠️
+    title: github链接不上怎么办？
+    details: 工具类问题
+  - icon: ⚡️
+    title: java、C、C++...
+    details: 语言类问题
+  - icon: 🖖
+    title: SQL、MySQL、SQLlite、MongoDB...
+    details: 数据库类问题
 ---
