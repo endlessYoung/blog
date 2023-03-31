@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "endlessyoung's blog",
   description: "这是endlessyoung的个人博客",
-  // base: "/ran/", // 部署到github上时访问的根目录
+  base: "/blog/", // 部署到github上时访问的根目录
   lastUpdated: true, // 页面上展示最后更新的时间
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }], // 也是放在/public目录中
