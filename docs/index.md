@@ -17,7 +17,7 @@ hero:
       link: https://github.com/endlessYoung
 features:
   - icon: 🛠️
-    title: github链接不上怎么办？
+    title: github、docker、tomcat...
     details: 工具类问题
   - icon: ⚡️
     title: java、C、C++...

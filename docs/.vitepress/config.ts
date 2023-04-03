@@ -15,7 +15,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/endlessYoung' }
     ],
     nav: [ // 页面最上面一行的导航栏
-      { text: "首页", link: "/page/" }, // 导航栏名字和目录地址，如果文件名叫index.md可以省略不写，路径只写到目录
+      { text: "首页", link: "/" }, // 导航栏名字和目录地址，如果文件名叫index.md可以省略不写，路径只写到目录
     ],
     footer: {
       message: "Released under the MIT License.",
@@ -25,7 +25,7 @@ export default defineConfig({
       {
         text: '目录',
         items: [
-          { text: 'java', link: '/page/2.md' },
+          { text: '使用Servlet写一个hello world', link: '/page/2.md' },
           { text: 'SQL', link: '/page/3.md' },
         ]
       }

@@ -19,6 +19,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
+git push -f git@github.com:endlessYoung/blog.git master:gh-pages
 # 如果发布到 https://<USERNAME>.github.io 修改仓库地址
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master:gh-pages
 
